@@ -1,7 +1,3 @@
-**This is template for Flarum language pack. If you want to use it, follow [these instructions](https://github.com/rob006-software/flarum-lang-template/wiki).**
-
----------
-
 # Toki Pona language pack for [Flarum](https://flarum.org/)
 
 [![Latest Stable Version](https://img.shields.io/packagist/v/flarum-lang/toki-pona?color=success&label=stable)](https://packagist.org/packages/flarum-lang/toki-pona) 
@@ -18,7 +14,7 @@ This language pack contains Toki Pona translations for Flarum (compatible with `
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/toki-pona
+composer require flarum-lang/toki-pona:dev-master
 ```
 
 Then enable extension in admin panel of your Flarum.
@@ -74,7 +70,3 @@ php flarum cache:clear
 ## Credits
 
 This language pack is part of [Flarum translations collective](https://github.com/rob006-software/flarum-translations).
-
-Translation for Day.js comes from the [source](https://github.com/iamkun/dayjs/blob/v1.11.7/src/locale/tok.js).
-
-Translation for `validation.yml` is based on [Laravel translations](https://github.com/Laravel-Lang/lang/blob/8.1.3/src/tok/validation.php).
