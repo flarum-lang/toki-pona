@@ -10,7 +10,8 @@ core:
       colors_primary_label: 'kule wawa'
       colors_secondary_label: 'kule namako'
       colors_text: 'o pana e kule tu. kule nanpa wan li suli e ijo wawa lon lipu. kule nanpa tu li namako e monsi lipu.'
-      custom_footer_heading: 'anpa pi lipu ni taso'
+      custom_footer_heading: 'anpa lipu'
+      custom_footer_text: '=> core.ref.custom_footer_text'
       custom_header_heading: 'sewi lipu'
       custom_header_text: '=> core.ref.custom_header_text'
       custom_styles_cannot_use_less_features: 'nasin @import en nasin data-uri li ken ala lon toki sina pi nasin LESS.'
@@ -43,7 +44,7 @@ core:
       welcome_banner_heading: 'toki open suli'
       welcome_banner_text: 'lipu pi "toki ale" la toki ni li suli lon sewi. toki ni la o toki pona tawa jan kama.'
     create_user:
-      email_confirmed_label: 'jan li toki ala e lon pi nimi Email ona la ona li ken ala kepeken lipu ni'
+      email_confirmed_label: 'jan ni o ken lukin e poki Email ni'
       email_placeholder: '=> core.ref.email'
       password_placeholder: '=> core.ref.password'
       submit_and_create_another_button: 'o pali o kama pali sin'
@@ -62,7 +63,7 @@ core:
           active: 'ni li pali'
           inactive: 'ni li lape'
           never-run: 'ni li open ala'
-      title: 'lipu ni - ona li pana e sona wile pi jan kepeken'
+      title: 'lukin ale'
       tools_button: ilo
     debug-warning:
       detail: "nasin <code>debug</code> li lon la, ilo Flarum li pali sin e ijo <code>JavaScript</code> e ijo <code>CSS</code> tawa lukin sin ale. ken kin la ona li kama pana ike e sona ante len tan insa pi ilo sina. ni li ken sona len pi poki sona, li ken sona len pi lawa ilo, li ken ante.\n\nale li ken lukin e lipu sina la sina o weka e nasin <code>debug</code> lon lipu <code>config.php</code>. o kama sona mute lon <link>lipu sona pi ilo Flarum</link>.\n"
@@ -77,3 +78,25 @@ core:
       title: '=> core.ref.custom_footer_title'
     edit_group:
       color_label: '=> core.ref.color'
+      delete_button: 'o weka e kulupu'
+      delete_confirmation: 'sina wile ala wile weka a e kulupu ni? ni li weka ALA e sijelo pi jan kulupu.'
+      hide_label: 'toki jan la o len e kulupu ni ona'
+      icon_label: '=> core.ref.icon'
+      icon_text: '=> core.ref.icon_text'
+      name_label: nimi
+      plural_placeholder: 'nimi kulupu (sama ni: kulupu lawa)'
+      singular_placeholder: 'nimi pi jan kulupu (sama ni: jan lawa)'
+      submit_button: '=> core.ref.save_changes'
+      title: 'o pali e kulupu'
+    edit_header:
+      customize_text: '=> core.ref.custom_header_text'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.custom_header_title'
+    email:
+      addresses_heading: 'lipu toki li tan nimi ni'
+      mail_password_label: '=> core.ref.password'
+      mail_username_label: '=> core.ref.username'
+      title: '=> core.ref.email'
+    extension:
+      confirm_purge: 'sina weka e ale tan ilo namako ni la, sona ale ona li weka. (ilo namako li weka ala – ilo Composer taso li ken pali e ni.) sina awen ala awen wile pali e ni?'
+      disabled: 'pali ala'
