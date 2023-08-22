@@ -62,7 +62,7 @@ core:
         headers:
           queue-driver: 'ilo pi pali wile'
           scheduler-status: 'ilo tenpo'
-          session-driver: 'ilo pi sona jan'
+          session-driver: 'ilo ni li sona e jan lukin'
         scheduler:
           active: 'ni li pali'
           inactive: 'ni li lape'
@@ -129,3 +129,13 @@ core:
         support: 'o wile e pona'
         website: 'lipu pi ilo ni'
       no_permissions: 'ken ala li lon ilo namako ni.'
+      permissions_title: ken
+      readme:
+        title: 'lipu sona pi ilo {extName}'
+    header:
+      log_out_button: '=> core.ref.log_out'
+    nav:
+      appearance_button: '=> core.admin.appearance.title'
+      appearance_title: '=> core.admin.appearance.description'
+      basics_button: '=> core.admin.basics.title'
+      basics_title: '=> core.admin.basics.description'
