@@ -40,8 +40,8 @@ core:
       home_page_heading: 'lipu open'
       home_page_text: 'jan li kama lon lipu sina la ona li lukin e lipu lili seme? o pana e wile.'
       show_language_selector_label: 'o lukin e ilo ni - ona li ante e nasin toki'
-      slug_driver_heading: 'ilo pi nimi ilo: {model}'
-      slug_driver_text: 'ilo ni li pali e nimi ilo tawa ijo pi nasin ni.'
+      slug_driver_heading: 'nasin ijo {model} la ilo nimi'
+      slug_driver_text: 'ijo pi nasin ni la ilo ni li pali e nimi ilo tawa ijo.'
       title: 'ijo suli'
       welcome_banner_heading: 'toki open suli'
       welcome_banner_text: 'lipu pi "toki ale" la toki ni li suli lon sewi. toki ni la o toki pona tawa jan kama.'
@@ -101,9 +101,12 @@ core:
       description: 'ilo li pana e lipu toki kepeken ilo ni lon nasin ni tan nimi ni.'
       driver_heading: 'o wile e ilo pana'
       driver_label: 'ilo pana'
+      from_label: tan
+      mail_encryption_label: 'len sona'
       mail_mailgun_region_label: ma
       mail_mailgun_secret_label: 'nanpa wawa'
       mail_password_label: '=> core.ref.password'
+      mail_port_label: 'nanpa pi toki ilo'
       mail_username_label: '=> core.ref.username'
       mailgun_heading: 'wile pi ilo Mailgun'
       not_sending_message: 'ilo Flarum li pana ala e lipu toki lon tenpo ni. ni li ken tan wile sina pi ilo pana li ken tan pakala pi nasin ona.'
@@ -111,6 +114,7 @@ core:
       send_test_mail_heading: 'o pana e lipu toki o alasa e pakala'
       send_test_mail_success: 'pana li pini pona!'
       send_test_mail_text: 'ni la mi pana e lipu kepeken nasin ni sewi tawa poki sina {email}.'
+      smtp_heading: 'wile pi nasin SMTP'
       title: '=> core.ref.email'
     extension:
       confirm_purge: 'sina weka e ale tan ilo namako ni la, sona ale ona li weka. (ilo namako li weka ala – ilo Composer taso li ken pali e ni.) sina awen ala awen wile pali e ni?'
@@ -118,7 +122,10 @@ core:
       enable_to_see: 'sina wile lukin anu ante e wile la o lon e namako.'
       enabled: lon
       info_links:
-        discuss: toki
-        documentation: 'lipu sona pi ilo ni'
+        discuss: 'o toki'
+        documentation: 'lipu sona'
         donate: 'o pana e mani'
-        source: tan
+        source: 'o lukin e toki ilo'
+        support: 'o wile e pona'
+        website: 'lipu pi ilo ni'
+      no_permissions: 'ken ala li lon ilo namako ni.'
