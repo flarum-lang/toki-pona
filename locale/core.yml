@@ -118,4 +118,7 @@ core:
       enable_to_see: 'sina wile lukin anu ante e wile la o lon e namako.'
       enabled: lon
       info_links:
-        discuss: 'o toki'
+        discuss: toki
+        documentation: 'lipu sona pi ilo ni'
+        donate: 'o pana e mani'
+        source: tan
