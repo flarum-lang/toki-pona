@@ -5,7 +5,7 @@
 core:
   admin:
     appearance:
-      colored_header_label: 'sewi lipu la kule'
+      colored_header_label: 'sewi lipu kule'
       colors_heading: kule
       colors_primary_label: 'kule wawa'
       colors_secondary_label: 'kule namako'
@@ -32,11 +32,11 @@ core:
       all_discussions_label: '=> core.ref.all_discussions'
       default_language_heading: 'jan li ante ala e ni la lipu li kepeken toki seme'
       description: 'lipu sina la o pana e nimi e nasin toki e ijo suli ante.'
-      display_name_heading: 'nimi jan la nasin lukin'
+      display_name_heading: 'lukin pi nimi jan'
       display_name_text: 'lipu li pana e nimi jan la ona li kepeken nasin seme? sina ante ala e ni la lipu li kepeken nimi ilo.'
       forum_description_heading: 'lipu sina la toki sona lili'
       forum_description_text: 'seme li lon kulupu sina? o pana e toki lili. toki ni li kama lon poki lili lon lipu sina la ilo mute li ken lukin e ona. ilo alasa lipu en ilo toki li pana e lipu sina la ona li ken pana e toki ni lon poka.'
-      forum_title_heading: 'lipu sina la nimi'
+      forum_title_heading: 'nimi pi lipu sina'
       home_page_heading: 'lipu open'
       home_page_text: 'jan li kama lon lipu sina la ona li lukin e lipu lili seme? o pana e wile.'
       show_language_selector_label: 'o lukin e ilo ni - ona li ante e nasin toki'
@@ -83,7 +83,7 @@ core:
     edit_group:
       color_label: '=> core.ref.color'
       delete_button: 'o weka e kulupu'
-      delete_confirmation: 'sina wile ala wile weka a e kulupu ni? ni li weka ALA e sijelo pi jan kulupu.'
+      delete_confirmation: 'sina wile ala wile weka e kulupu ni? jan kulupu li weka ALA kin.'
       hide_label: 'toki jan la o len e kulupu ni ona'
       icon_label: '=> core.ref.icon'
       icon_text: '=> core.ref.icon_text'
@@ -104,7 +104,7 @@ core:
       from_label: tan
       mail_encryption_label: 'len sona'
       mail_mailgun_region_label: ma
-      mail_mailgun_secret_label: 'nanpa wawa'
+      mail_mailgun_secret_label: 'nanpa len'
       mail_password_label: '=> core.ref.password'
       mail_port_label: 'nanpa pi toki ilo'
       mail_username_label: '=> core.ref.username'
@@ -130,12 +130,147 @@ core:
         website: 'lipu pi ilo ni'
       no_permissions: 'ken ala li lon ilo namako ni.'
       permissions_title: ken
+      purge_button: 'o weka'
       readme:
+        button_label: OLUKINEMI
         title: 'lipu sona pi ilo {extName}'
     header:
       log_out_button: '=> core.ref.log_out'
+    loading:
+      title: 'o awen...'
     nav:
       appearance_button: '=> core.admin.appearance.title'
       appearance_title: '=> core.admin.appearance.description'
       basics_button: '=> core.admin.basics.title'
       basics_title: '=> core.admin.basics.description'
+      categories:
+        discussion: 'toki suli'
+        feature: 'ijo ken'
+        language: toki
+        theme: 'selo lukin'
+      dashboard_button: '=> core.admin.dashboard.title'
+      dashboard_title: '=> core.admin.dashboard.description'
+      email_button: '=> core.ref.email'
+      email_title: '=> core.ref.email.description'
+      permissions_title: '=> core.admin.permissions.description'
+      userlist_title: '=> core.admin.users.description'
+    permissions:
+      allow_hide_own_posts_label: 'o ken e ni: jan li ken weka e toki ona'
+      allow_post_editing_label: 'o ken e ni: jan li ken ante e toki ona'
+      allow_renaming_label: 'o ken e ni: jan li ken ante e nimi pi toki ona'
+      create_access_token_label: 'ona li ken pali e nanpa open'
+      create_heading: 'ona li ken pali'
+      delete_discussions_forever_label: 'ona li ken weka e kulupu toki lon tenpo ale'
+      delete_discussions_label: 'ona li ken weka e kulupu toki'
+      delete_posts_forever_label: 'ona li ken weka e toki lon tenpo ale'
+      delete_posts_label: 'ona li ken weka e toki'
+      edit_posts_label: 'ona li ken ante e toki'
+      edit_users_groups_label: 'ona li ken ante e kulupu jan'
+      edit_users_label: 'ona li ken ante e jan'
+      moderate_access_tokens_label: 'lawa e nimi open'
+      read_heading: lukin
+    permissions_controls:
+      everyone_button: 'jan ale'
+      signup_closed_button: pini
+    settings:
+      submit_button: '=> core.ref.save_changes'
+    users:
+      create_user_button: 'o lon e jan'
+      grid:
+        columns:
+          edit_user:
+            tooltip: 'o ante e {username}'
+          group_badges:
+            title: kulupu
+      pagination:
+        last_button: 'o tawa e lipu pini'
+      search_placeholder: '=> core.ref.search_users'
+  email:
+    confirm_email:
+      body: "toki {username}!\n\njan (ken la pona la sina!) li ante e nimi email lon {forum} tawa nimi ni.\n\nona li sina la o luka e nasin nimi ni. nimi email sina li kama pona.\n{url}\n\nona li sina ala la o weka e lipu ni.\n"
+  forum:
+    change_email:
+      confirmation_message: '=> core.ref.confirmation_email_sent'
+      dismiss_button: '=> core.ref.okay'
+      incorrect_password_message: 'nimi len sina li ike.'
+      submit_button: '=> core.ref.save_changes'
+    composer:
+      preview_tooltip: 'o lukin'
+    composer_discussion:
+      body_placeholder: 'o sitelen e toki...'
+      title: '=> core.ref.start_a_discussion'
+    composer_edit:
+      discard_confirmation: 'sina awen ala e ante. sina wile ala wile weka e ona?'
+      post_link: 'toki nanpa {number} lon {discussion}'
+      view_button: '=> core.ref.view'
+    composer_reply:
+      discard_confirmation: 'sina pana ala e toki sina. sina wile ala wile weka e ona?'
+    forgot_password:
+      email_placeholder: '=> core.ref.email'
+    header:
+      admin_button: lawa
+      settings_button: '=> core.ref.settings'
+      sign_up_link: '=> core.ref.sign_up'
+    log_in:
+      invalid_login_message: 'nimi open sina li ike.'
+      username_or_email_placeholder: 'nimi jan anu nimi email'
+    post:
+      number_tooltip: 'toki nanpa {number}'
+    rename_discussion:
+      title: 'o ante e nimi pi toki suli ni'
+    search:
+      users_heading: '=> core.ref.users'
+    security:
+      new_access_token_modal:
+        title_placeholder: nimi
+      revoke_access_token_confirmation: '=> core.ref.generic_confirmation_message'
+      title: '=> core.ref.security'
+      token_item_title: '{title} - {token}'
+    settings:
+      change_password_button: '=> core.ref.change_password'
+      notify_discussion_renamed_label: 'jan li ante e toki suli mi'
+      privacy_disclose_online_label: 'o ken e ni: jan ante li ken lukin e lon mi'
+      title: '=> core.ref.settings'
+    sign_up:
+      email_placeholder: '=> core.ref.email'
+    user:
+      avatar_upload_button: 'o pana'
+      joined_date_text: 'ona li kama lon {ago}'
+      online_text: lon
+    user_controls:
+      delete_confirmation: 'sina wile ala wile weka e jan ni? toki pi jan ni li weka ala.'
+      delete_error_message: 'weka pi jan <i>{username} ({email})</i> li pakala'
+  group:
+    admin: 'jan lawa'
+    admins: 'jan lawa'
+    members: jan
+  lib:
+    alert:
+      dismiss_a11y_label: 'o weka e sona suli'
+    edit_user:
+      password_label: '=> core.ref.password'
+      username_label: '=> core.ref.username'
+    error:
+      generic_message: 'pakala a! ijo li pakala. o lukin sin e lipu ni.'
+      permission_denied_message: 'sina ken ala pali e ni.'
+    meta_titles:
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: lipu # - {forumName}}}'
+    series:
+      glue_text: ', '
+  ref:
+    change_password: 'o ante e nimi open len'
+    new_token: 'nanpa open sin'
+    search_users: 'o alasa e jan'
+    start_a_discussion: 'o open e toki suli'
+  views:
+    admin:
+      extensions:
+        enable: 'o lon'
+        name: 'nimi ilo'
+        version: 'nanpa ante'
+    discussion:
+      previous_page_button: '=> core.ref.previous_page'
+    error:
+      csrf_token_mismatch: 'sina lape lon tenpo suli.'
+    reset_password:
+      title: '=> core.ref.reset_your_password'
