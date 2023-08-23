@@ -11,3 +11,10 @@ CHANGELOG
 * Updated Flarum core translations.
 
 
+**Added support for new extensions**:
+
+* [`flarum/emoji`](https://github.com/flarum/emoji)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
+
+
