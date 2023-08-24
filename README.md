@@ -50,6 +50,7 @@ php flarum cache:clear
 | Extension | Status |
 | --- | --- |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tok/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/tok/) |
+| [`flarum/flags`](https://github.com/flarum/flags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tok/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/tok/) |
 | [`flarum/lock`](https://github.com/flarum/lock) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tok/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/tok/) |
 | [`flarum/sticky`](https://github.com/flarum/sticky) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tok/flarum-sticky/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-sticky/tok/) |
 
