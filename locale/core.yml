@@ -165,15 +165,23 @@ core:
       delete_posts_forever_label: 'ona li ken weka e toki lon tenpo ale'
       delete_posts_label: 'ona li ken weka e toki'
       edit_posts_label: 'ona li ken ante e toki'
+      edit_users_credentials_label: 'ona li ken ante e nimi wawa jan'
       edit_users_groups_label: 'ona li ken ante e kulupu jan'
       edit_users_label: 'ona li ken ante e jan'
-      moderate_access_tokens_label: 'lawa e nimi open'
+      moderate_access_tokens_label: 'ona li ken lawa e nimi open'
+      new_group_button: 'kulupu sin'
       read_heading: lukin
+      search_users_label: 'ona li ken alasa e jan'
+      sign_up_label: 'ona li ken pali e sijelo'
+      title: ken
     permissions_controls:
       everyone_button: 'jan ale'
       signup_closed_button: pini
     settings:
+      saved_message: 'mi awen e ante sina.'
       submit_button: '=> core.ref.save_changes'
+    upload_image:
+      upload_button: 'o pana e sitelen...'
     users:
       create_user_button: 'o lon e jan'
       grid:
