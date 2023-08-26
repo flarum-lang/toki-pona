@@ -148,6 +148,7 @@ core:
         discussion: 'toki suli'
         feature: 'ijo ken'
         language: toki
+        other: 'ilo namako ante'
         theme: 'selo lukin'
       dashboard_button: '=> core.admin.dashboard.title'
       dashboard_title: '=> core.admin.dashboard.description'
