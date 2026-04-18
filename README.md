@@ -14,7 +14,7 @@ This language pack contains Toki Pona translations for Flarum (compatible with `
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/toki-pona:dev-master
+composer require "flarum-lang/toki-pona:@dev"
 ```
 
 Then enable extension in admin panel of your Flarum.
