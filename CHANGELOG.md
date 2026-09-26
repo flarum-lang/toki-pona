@@ -13,9 +13,9 @@ CHANGELOG
 
 **Added support for new extensions**:
 
-* [`flarum/emoji`](https://github.com/flarum/emoji)
-* [`flarum/flags`](https://github.com/flarum/flags)
-* [`flarum/lock`](https://github.com/flarum/lock)
-* [`flarum/sticky`](https://github.com/flarum/sticky)
+* [`flarum/emoji`](https://github.com/flarum/emoji) (50% complete)
+* [`flarum/flags`](https://github.com/flarum/flags) (7% complete)
+* [`flarum/lock`](https://github.com/flarum/lock) (50% complete)
+* [`flarum/sticky`](https://github.com/flarum/sticky) (55% complete)
 
 
