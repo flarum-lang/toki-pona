@@ -1,6 +1,3 @@
-// source: https://unpkg.com/dayjs@v1.11.7/locale/tok.js
-// see: https://github.com/iamkun/dayjs/blob/v1.11.7/src/locale/tok.js
-
-// TODO: copy compiled translations from https://unpkg.com/dayjs@v1.11.7/locale/tok.js
-
-// dayjs.locale('tok');
+// Day.js has no translations for this language yet, so dates are displayed in English.
+// Translations can be contributed to https://github.com/iamkun/dayjs/tree/dev/src/locale - once they are released,
+// they can be used here.
