@@ -17,5 +17,5 @@ the extension repository, not to translations.
 
 People who prefer to translate in the browser can use Weblate: https://weblate.rob006.net/languages/tok/flarum/ (AI agents can't access it).
 
-`CHANGELOG.md` and the translation status in `README.md` are also generated. Other files (like `composer.json` or
-`extend.php`) are maintained in this repository as usual.
+`CHANGELOG.md`, the translation status in `README.md`, `AGENTS.md`, `CLAUDE.md`, `.gitattributes` and `.gitignore`
+are also generated. Other files (like `composer.json` or `extend.php`) are maintained in this repository as usual.
