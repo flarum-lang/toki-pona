@@ -1,27 +1,24 @@
 {
 	"name": "flarum-lang/toki-pona",
+	"description": "Toki Pona Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Toki Pona language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/toki-pona",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"tok-locale",
-		"toki-pona-locale",
-		"toki-pona"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/toki-pona",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/toki-pona/issues",
+		"forum": "https://discuss.flarum.org/d/40219",
 		"source": "https://github.com/flarum-lang/toki-pona"
 	},
 	"require": {
 		"flarum/core": "^1.7"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Toki Pona",
 			"category": "language",
@@ -34,12 +31,6 @@
 		"flarum-locale": {
 			"code": "tok",
 			"title": "Toki Pona"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
 		}
 	}
 }
